@@ -225,7 +225,7 @@ In addition, ID3TagEditor supports the following iTunes unofficial frames:
 All frames are encoded/formatted following the specification:
 * text frames (frames with identifier starting with a capital T) uses UTF-16 to encode text
 * frames with ad hoc encoding/formatting are supported (for example recordingDateTime must always be a ISO88591 string)
-* frames with localized content (e.g. `.unsynchronizedLyrics`) support all the languages identifier contained in the ISO-639-2 (see `ID3FrameContentLanguage` for the complete list of supported languages)
+* frames with localized content (e.g. `.unsynchronizedLyrics`) support all the languages identifier contained in the ISO-639-2 (see `ID3FrameContentLanguage` for the complete list of supported languages).  
 Refer to the [id3 specification](https://id3.org/Developer%20Information "id3 specification") for additional details.
 
 ***
